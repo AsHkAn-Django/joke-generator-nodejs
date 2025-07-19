@@ -1,6 +1,11 @@
-#  Joke Generator App
+<p align="center">
+<img src="public/images/image.png" alt="App Screenshot" width="300" height="auto" >
+</p>
 
+#  Joke Generator App
 A simple and fun Node.js web application that fetches random jokes using the [JokeAPI](https://jokeapi.dev/) and displays them in a clean, responsive interface.
+
+
 
 ---
 
@@ -17,11 +22,6 @@ A simple and fun Node.js web application that fetches random jokes using the [Jo
 - Responsive and beautiful design with Bootstrap 5
 - Error handling if API call fails
 
----
-
-##  Screenshot
-
-![alt text](public/images/image.png)
 
 ---
 

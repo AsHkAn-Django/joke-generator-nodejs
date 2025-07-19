@@ -21,7 +21,7 @@ A simple and fun Node.js web application that fetches random jokes using the [Jo
 
 ##  Screenshot
 
-![Screenshot of Joke Generator](screenshot.png) <!-- Optional: include a screenshot of your app -->
+![alt text](public/images/image.png)
 
 ---
 

@@ -1,11 +1,13 @@
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const app = express();
 const PORT = 3000;
 
+// Serve static files from the "public" folder
+app.use(express.static("public"));
 
 // Set EJS as the view engine
-app.set('view engine', 'ejs')
+app.set("view engine", "ejs");
 
 // Home route
 app.get("/", async (req, res) => {
@@ -32,4 +34,4 @@ app.get("/", async (req, res) => {
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
-})
+});
